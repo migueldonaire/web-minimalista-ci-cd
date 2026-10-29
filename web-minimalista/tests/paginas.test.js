@@ -22,4 +22,7 @@ for (const pagina of paginas) {
       assert.match(img, /alt="/, `Falta alt en ${img}`);
     }
   });
+
+
+  
 }
