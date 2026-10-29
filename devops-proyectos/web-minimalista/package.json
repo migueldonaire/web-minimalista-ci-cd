@@ -1,0 +1,16 @@
+{
+  "name": "web-minimalista",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "npm run lint:html && npm run lint:js",
+    "lint:html": "npx --yes htmlhint \"**/*.html\"",
+    "lint:js": "eslint .",
+    "test": "node --test --experimental-test-coverage --test-coverage-exclude=\"tests/**\" --test-reporter=spec --test-reporter-destination=stdout --test-reporter=lcov --test-reporter-destination=lcov.info"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.13.0",
+    "globals": "^17.13.0"
+  }
+}
