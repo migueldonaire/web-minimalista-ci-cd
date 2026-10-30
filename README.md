@@ -20,3 +20,5 @@ docker compose up --build   # la web en http://localhost:8080
 | `.github/dependabot.yml` | Cada semana | PRs para actualizar dependencias, actions e imagen base |
 
 Para sacar una versión nueva, sube `version` en `package.json` dentro de tu PR (`npm version minor --no-git-tag-version`).
+
+# CAMBIO
