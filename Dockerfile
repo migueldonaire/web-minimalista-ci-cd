@@ -1,5 +1,5 @@
 # Servidor web Nginx con los ficheros de la web
-FROM nginx:1.30-alpine
+FROM nginx:1.31-alpine
 # Instalamos los parches de seguridad de Alpine que aún no trae la imagen (Trivy)
 RUN apk upgrade --no-cache
 ARG VERSION=dev
